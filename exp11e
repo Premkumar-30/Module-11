@@ -1,0 +1,44 @@
+EX NO 11(E): SQUARE OF A NUMBER
+
+
+AIM:
+To write a program to calculate and print the square of a given number.
+
+
+ALGORITHM:
+1.Start.
+2.Declare variables for input number and result.
+3.Read the number from the user.
+4.Calculate the square by multiplying the number by itself.
+5.Display the result.
+6.End.
+
+
+PROGRAM:
+#include <stdio.h>
+
+int main() {
+    int num, square;
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    
+    square = num * num;
+
+    printf("Square of %d is %d\n", num, square);
+
+    return 0;
+}
+
+
+
+INPUT:
+Enter a number: 7
+
+
+OUTPUT:
+Square of 7 is 49
+
+
+RESULT:
+Thus, the program is executed and verified successfully
