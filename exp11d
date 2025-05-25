@@ -1,0 +1,44 @@
+EX NO 11(D):  HACKERRANK PROBLEM - CALCULATING THE TOTAL, AVERAGE AND PERCENTAGE
+
+
+AIM:
+To write a program to calculate the total,average and percentage.
+
+
+ALGORITHM:
+1. Start.
+2. Define a variables.
+3. Write a program to calculate the total, average and percentage.
+4. Read the value using scanf.
+5. Ask the user to make an input.
+6. Print out the answer.
+7. End
+
+
+PROGRAM:
+#include<stdio.h>
+int main()
+{
+float a,b,c,d,e;
+scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+float total,ave;
+float per;
+total=a+b+c+d+e;
+ave=(total)/5;
+per=ave;
+printf("%f\n%f\n%f",total,ave,per);
+}
+
+
+INPUT:
+95 76 85 90 89 
+
+
+OUTPUT:
+435.000000
+87.000000
+87.000000
+
+
+RESULT:
+Thus, the program is executed and verified successfully
